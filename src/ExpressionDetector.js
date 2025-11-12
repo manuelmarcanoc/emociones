@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Webcam from 'react-webcam';
-import * as faceapi from 'face-api.js';
+const faceapi = window.faceapi;
+
 
 const VIDEO_WIDTH = 640;
 const VIDEO_HEIGHT = 480;
